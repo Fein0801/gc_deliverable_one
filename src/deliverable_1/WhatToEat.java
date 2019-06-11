@@ -67,6 +67,7 @@ public class WhatToEat {
 	    }
 	}
 
+
 	// Only print a result if entries were valid
 	if (validEntries) {
 
@@ -82,6 +83,8 @@ public class WhatToEat {
 	}
 
 	System.out.println(result);
+
+	userInput.close();
 
     }
 
